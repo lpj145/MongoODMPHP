@@ -1,0 +1,20 @@
+{
+  "name": "MarcosDantas/MongoODM",
+  "description": "This class create methods to easy management mongodb documents",
+  "minimum-stability": "dev",
+  "license": ["GPL-3.0+","LGPL-3.0+"],
+  "authors": [
+    {
+      "name": "Marcos Dantas",
+      "email": "marcos.adantas@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MongoODMPHP\\": "src/"
+    }
+  },
+  "require": {
+    "mongodb/mongodb": "^1.2@dev"
+  }
+}
