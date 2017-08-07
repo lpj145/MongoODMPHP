@@ -1,7 +1,7 @@
 {
   "name": "MarcosDantas/MongoODMPHP",
   "description": "This class create methods to easy management mongodb documents",
-  "minimum-stability": "dev",
+  "minimum-stability": "beta",
   "license": ["GPL-3.0+","LGPL-3.0+"],
   "authors": [
     {
