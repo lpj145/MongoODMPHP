@@ -19,6 +19,6 @@
     }
   },
   "require": {
-    "mongodb/mongodb": "1.2-alpha"
+    "mongodb/mongodb": "1.2.0-alpha1"
   }
 }
