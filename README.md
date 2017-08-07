@@ -24,7 +24,7 @@ $postCollection
 
 $postCollection
     ->update()
-    ->where('id', '6894989898')
+    ->where('_id', '6894989898')
     ->setMany()
     ->createIfNotFound()
     ->save(['somedata']);
