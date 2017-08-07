@@ -1,12 +1,14 @@
 # MongoODMPHP
 ODM php for mongodb
 
+###Create cluster on cloud mongo
+This can accomplish some operations C.R.U.D
 
 ````
 require 'vendor/autoload.php';
 
 $cloudMongo = new \MongoODMPHP\Drivers\CloudMongoDriver(
-    ''
+    'connectionStringWithUserAndPassword'
 );
 
 $db = new \MongoODMPHP\Database($cloudMongo);
