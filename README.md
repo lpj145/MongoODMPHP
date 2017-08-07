@@ -1,5 +1,5 @@
 # MongoODMPHP
-ODM php for mongodb
+Initializing project ODM for mongo, the release only contain some cruds operations.
 
 ###Create cluster on cloud mongo
 This can accomplish some operations C.R.U.D
