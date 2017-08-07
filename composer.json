@@ -15,6 +15,6 @@
     }
   },
   "require": {
-    "mongodb/mongodb": "^1.2@dev"
+    "mongodb/mongodb": "^1.2"
   }
 }
