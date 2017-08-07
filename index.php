@@ -1,8 +1,5 @@
-# MongoODMPHP
-ODM php for mongodb
+<?php
 
-
-````
 require 'vendor/autoload.php';
 
 $cloudMongo = new \MongoODMPHP\Drivers\CloudMongoDriver(
@@ -41,4 +38,3 @@ $postCollection
     ->where('data', '2017-08-05')
     ->setMany()
     ->execute();
-````
